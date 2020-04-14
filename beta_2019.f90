@@ -8660,7 +8660,9 @@ l_1 = 0.5_real8*(norm_ri_m_rj - ((ri**2 - rj**2)/(norm_ri_m_rj)))
 
 contact_area = pi * (ri**2 - Li**2)
 !=================================================================
+
 a_1 = contact_area
+
 !=================================================================
 
 !IF (system%general_cv%temperature_dofs=="off") THEN
